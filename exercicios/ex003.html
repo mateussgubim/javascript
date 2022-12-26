@@ -16,8 +16,11 @@
     <p>Como vai você, usuário?</p>
 
     <script>
-       var nome = window.prompt('Qual é o seu nome?')
-       window.confirm('Olá, ' + nome + '!')
+    var n1 = Number(window.prompt('Digite um número'))
+    var n2 = Number(window.prompt('Digite outro número'))
+    var s = n1 + n2 
+
+    window.confirm(`O resultado da soma de ${n1} + ${n2} é: ${s}`)
     </script>
 </body>
 </html>
