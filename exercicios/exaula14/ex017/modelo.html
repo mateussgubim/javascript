@@ -4,19 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hora do dia</title>
+  <title>Super contador</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body onload="carregar()">
   <header>
-    <h1>Hora do dia</h1>
+    <h1>Vamos contar</h1>
   </header>
 
   <section>
-    <div id="msg">Aqui vai aparecer a mensagem</div>
-    <div id="foto">
-      <img src="./images/foto-manha.png" alt="Foto do dia" id="imagem">
-    </div>
+    Início: <input type="number" name="num1" id="num1">
+    Fim: <input type="number" name="num2" id="num2">
+    Passo: <input type="number" name="num3" id="num3">
+    <input type="submit" value="Contar">
+
+    <div id="res">Preparando a contagem...</div>
   </section>
 
   <footer>
