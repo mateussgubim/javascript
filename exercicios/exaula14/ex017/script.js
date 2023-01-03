@@ -1,15 +1,3 @@
-function contar1() {
-  var num1 = Number(document.querySelector('#num1').value)
-  var num2 = Number(document.querySelector('#num2').value)
-  var num3 = Number(document.querySelector('#num3').value)
-  var res = document.querySelector('#res')
-
-  for (c = num1; c <= num2; c = c + num3) {
-    res.innerHTML = 'Contando...'
-    res.innerHTML += c
-  }
-}
-
 function contar(){
   let ini = document.querySelector('#txti')
   let fim = document.querySelector('#txtf')
